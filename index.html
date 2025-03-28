@@ -1,0 +1,51 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Image Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+        <!-- Main Content -->
+        <main class="content">
+            <div class="generator-box">
+                <div class="title-container">
+                    <h2>Transform Text to Image</h2>
+                    <div class="ai-badge">AI-Powered</div>
+                </div>
+                <div class="input-group">
+                    <input type="text" id="promptInput" placeholder="Describe your vision...">
+                    <button class="generate-btn" onclick="generateImage()">
+                        <span class="btn-text">Generate Art</span>
+                        <div class="btn-loader"></div>
+                    </button>
+                </div>
+                <div class="result-container" id="resultContainer"></div>
+                <div class="loading" id="loading">
+                    <div class="spinner"></div>
+                    <p>Creating your masterpiece...</p>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <p>© 2024 AI Art Studio. Dev-Rohit raj.All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://kit.fontawesome.com/your-kit-code.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
